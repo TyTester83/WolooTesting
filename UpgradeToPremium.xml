@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <listeners>
+    <listener class-name="Utilities.ListenerImpUtility"/>
+  </listeners>
+  <test name="UpgradePremiumImmediatelyTest">
+    <parameter name="rowNumber" value="1" />
+    <Classes>
+      <class name="NewAdminFlowTest.UpgradeToPremiumTest">
+        <methods>
+          <include name="Tc01_upgradePremium_RenewMembership_ImmediatelyTest"/>
+        </methods>
+      </class>
+    </Classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

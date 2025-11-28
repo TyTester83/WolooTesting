@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <listeners>
+    <listener class-name="Utilities.ListenerImpUtility"/>
+  </listeners>
+  <test name="AddNewTaskBuddyTest">
+    <parameter name="rowNumber" value="1" />
+    <classes>
+      <class name="NewAdminFlowTest.AddNewTaskbuddyTest"/>
+      <class name="SupervisorFlowTest.SupervisorValidatePendingTaskTest"/>
+      <class name="SupervisorFlowTest.SupervisorValidateTaskBuddyShiftTimeTest"/>
+      <class name="TaskbuddyFlowTest.TaskbuddyPendingTaskTest"/>
+      <class name="TaskbuddyFlowTest.TaskbuddyAcceptedTaskTest"/>
+      <class name="NewAdminFlowTest.AdminDeleteTaskbuddyAcceptedTaskFlowTest">
+        <methods>
+          <include name="Tc01_taskbuddyAcceptedTask_UpdateInAdminDashboardTest"/>
+        </methods>
+      </class>
+      <class name="SupervisorFlowTest.SupervisorValidateTaskbuddyTaskCountTest">
+        <methods>
+          <include name="Tc01_taskbuddyAcceptedTaskUpdatedInSupervisors_JanitorsDetailsScreenTest"/>
+          <include name="Tc02_validateClosureTaskIsUpdatedInSupervisors_JanitorsDetailScreenTest"/>
+        </methods>
+      </class>
+      <class name="TaskbuddyFlowTest.TaskbuddyRequestforClosureTest"/>
+      <class name="SupervisorFlowTest.SupervisorClosureofRequestedTaskTest">
+        <methods>
+          <include name="Tc01_approveBuddyRequestedTaskTest"/>
+          <include name="Tc02_completedTaskUpdatedInSupervisors_JanitorsDetailScreenTest"/>
+          <include name="Tc03_validateCompletedTaskUpdatedInAdminDashboardTest"/>
+        </methods>
+      </class>
+      <class name="TaskbuddyFlowTest.TaskbuddyCompletedTaskTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

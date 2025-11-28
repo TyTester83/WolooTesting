@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <listeners>
+    <listener class-name="Utilities.ListenerImpUtility"/>
+  </listeners>
+  <test name="SupervisorRejectAndReassignClosureTaskAndTaskCompletionTest">
+    <parameter name="rowNumber" value="1" />
+    <classes>
+      <class name="TaskMasterFlowTest.SupervisorRejectRequestForClosureTaskTest"/>
+      <class name="TaskMasterFlowTest.SupervisorReassign_RejectedOfClosureTaskTest"/>
+      <class name="TaskMasterFlowTest.TaskBuddyRejectedTaskReassignAndTaskCompletionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

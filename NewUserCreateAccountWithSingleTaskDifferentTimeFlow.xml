@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <listeners>
+    <listener class-name="Utilities.ListenerImpUtility"/>
+  </listeners>
+  <test name="NewUserCreateTaskmasterAccountwithSingleTaskDifferentTimeTest">
+  <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <parameter name="rowNumber" value="2" />
+    <classes> 
+    <class name="NewAdminFlowTest.NewUserAccountCreationTest">
+        <methods>
+          <include name="Tc02_newUserLogin_AssignSingleTask_differentTimeTest"/>
+        </methods>
+      </class>
+      <class name="SupervisorFlowTest.SupervisorValidatePendingTaskTest"/>
+      <class name="TaskbuddyFlowTest.TaskBuddyDashboardValidationTest">
+        <methods>
+          <include name="TC_01taskBuddyDashboardUIValidationtTest"/>
+          <include name="TC_02taskBuddyProfileUIValidationtTest"/>
+          <include name="TC_03taskBuddyRegisterationWolooPointsValidationtTest"/>
+          <include name="TC_04taskBuddyShiftLoginWolooPointsValidationtTest"/>
+          <include name="TC_05taskBuddyDashboardPendingTaskValidationTest"/> 
+        </methods>
+      </class>
+      </classes> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

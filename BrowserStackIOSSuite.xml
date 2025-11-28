@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BrowserStack - iOS Suite" parallel="false">
+  <listeners>
+    <listener class-name="Utilities.ListenerImpUtility"/>
+  </listeners>
+  
+  <!-- BrowserStack iOS Execution -->
+  <test name="BrowserStack iOS Tests">
+    <parameter name="platformName" value="iOS" />
+    <parameter name="testEnv" value="browserstack" />
+    
+    <classes>
+      <class name="TaskMasterFlowTest.NewUserAccountCreationFlowTest">
+        <methods>
+          <include name="testNewUserCreation" />
+        </methods>
+      </class>
+      
+      <class name="TaskMasterFlowTest.AdminTaskDeletionScenarioTest">
+        <methods>
+          <include name="testAdminLogin" />
+          <include name="testTaskDeletion" />
+        </methods>
+      </class>
+      
+      <class name="TaskMasterFlowTest.AddNewTaskbuddyFlowTest">
+        <methods>
+          <include name="testAddNewTaskbuddy" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+
+</suite>

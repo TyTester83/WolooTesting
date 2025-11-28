@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Utilities.ListenerImpUtility"/>
+  </listeners>
+  <test thread-count="5" name="AdminDifferentTaskDeletionTest(failed)">
+    <parameter name="rowNumber" value="1"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TaskMasterFlowTest.AdminTaskDeletionScenarioTest">
+        <methods>
+          <include name="loadConfigAndStartServer"/>
+          <include name="quitDriver"/>
+          <include name="stopServer"/>
+          <include name="resetAppBeforeTest"/>
+          <include name="afterMethod"/>
+          <include name="initDriver"/>
+          <include name="Tc19_approveBuddyRequestedTaskTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TaskMasterFlowTest.AdminTaskDeletionScenarioTest -->
+    </classes>
+  </test> <!-- AdminDifferentTaskDeletionTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

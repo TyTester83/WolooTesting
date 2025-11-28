@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BrowserStack - Android Suite" parallel="false">
+  <listeners>
+    <listener class-name="Utilities.ListenerImpUtility"/>
+  </listeners>
+  
+  <!-- BrowserStack Android Execution -->
+  <test name="BrowserStack Android Tests">
+    <parameter name="platformName" value="Android" />
+    <parameter name="testEnv" value="browserstack" />
+    
+    <classes>
+      <class name="TaskMasterFlowTest.NewUserAccountCreationFlowTest">
+        <methods>
+          <include name="testNewUserCreation" />
+        </methods>
+      </class>
+      
+      <class name="TaskMasterFlowTest.AdminTaskDeletionScenarioTest">
+        <methods>
+          <include name="testAdminLogin" />
+          <include name="testTaskDeletion" />
+        </methods>
+      </class>
+      
+      <class name="TaskMasterFlowTest.AddNewTaskbuddyFlowTest">
+        <methods>
+          <include name="testAddNewTaskbuddy" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+
+</suite>

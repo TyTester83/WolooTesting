@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MasterSuite">
+    <!-- Global listeners for reporting, screenshots, etc. -->
+    <listeners>
+        <listener class-name="Utilities.ListenerImpUtility"/>
+    </listeners>
+
+    <!-- Sub-suites to execute in sequence -->
+    <suite-files>
+         <!--<suite-file path="NewTaskmasterAccountCreationFlow.xml"/>-->
+        <suite-file path="AddNewTaskbuddyFlow.xml"/>
+        <suite-file path="AdminAssignExistingTaskbuddyDifferentTimeScenario.xml"/>
+        <suite-file path="TrialUserMembershipSubscriptionFlow.xml"/>
+        <suite-file path="AddNewFacilityFlow.xml"/>
+        <suite-file path="AdminDeleteDifferentTaskFlow.xml"/>
+    </suite-files>
+</suite>

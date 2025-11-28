@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="21" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-28T09:06:28 IST" name="Suite" finished-at="2025-11-28T09:55:34 IST" duration-ms="2945663">
+    <groups>
+      <group name="sanity">
+        <method signature="AdminTaskDeletionScenarioTest.Tc01_assign_Delete_AssignTaskOfSameFacilityTest(java.lang.String)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc01_assign_Delete_AssignTaskOfSameFacilityTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc02_pendingTaskValidationTest(java.lang.String)[pri:1, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc02_pendingTaskValidationTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc03_validateBuddyPendingTaskTest(java.lang.String)[pri:2, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc03_validateBuddyPendingTaskTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc04_validationOf_PN_for_AcceptedTaskTest(java.lang.String)[pri:3, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc04_validationOf_PN_for_AcceptedTaskTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc05_taskBuddyDashboardAcceptedTaskValidationTest(java.lang.String)[pri:4, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc05_taskBuddyDashboardAcceptedTaskValidationTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc06_taskbuddyAcceptedTask_UpdateInAdminDashboardTest(java.lang.String)[pri:5, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc06_taskbuddyAcceptedTask_UpdateInAdminDashboardTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc07_adminDeleteTaskbuddyAcceptedTaskTest(java.lang.String)[pri:6, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc07_adminDeleteTaskbuddyAcceptedTaskTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc08_taskbuddyAcceptedTaskUpdatedInSupervisors_JanitorsDetailsScreenTest(java.lang.String)[pri:7, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc08_taskbuddyAcceptedTaskUpdatedInSupervisors_JanitorsDetailsScreenTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc09_taskBuddyStartToWorkAcceptedTaskFlowTest(java.lang.String)[pri:8, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc09_taskBuddyStartToWorkAcceptedTaskFlowTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc10_taskBuddyDashboardOngoingTaskValidationTest(java.lang.String)[pri:9, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc10_taskBuddyDashboardOngoingTaskValidationTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc11_taskbuddyOngoingTaskUpdateInAdminDashboardTest(java.lang.String)[pri:10, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc11_taskbuddyOngoingTaskUpdateInAdminDashboardTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc12_adminDeleteTaskbuddyOngoingTaskTest(java.lang.String)[pri:11, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc12_adminDeleteTaskbuddyOngoingTaskTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc13_taskbuddyOngoingTaskUpdatedInSupervisors_JanitorsDetailsScreenTest(java.lang.String)[pri:12, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc13_taskbuddyOngoingTaskUpdatedInSupervisors_JanitorsDetailsScreenTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc14_validationOf_PN_for_RequestforClosureTaskTest(java.lang.String)[pri:13, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc14_validationOf_PN_for_RequestforClosureTaskTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc15_taskBuddyDashboardClosureTaskValidationTest(java.lang.String)[pri:14, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc15_taskBuddyDashboardClosureTaskValidationTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc16_validateClosureTaskIsUpdatedInSupervisors_JanitorsDetailScreenTest(java.lang.String)[pri:15, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc16_validateClosureTaskIsUpdatedInSupervisors_JanitorsDetailScreenTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc17_taskbuddyClosureTaskUpdateInAdminDashboardTest(java.lang.String)[pri:16, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc17_taskbuddyClosureTaskUpdateInAdminDashboardTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc18_verifyAdminDelete_BuddyRequestForClosureTaskTest(java.lang.String)[pri:17, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc18_verifyAdminDelete_BuddyRequestForClosureTaskTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc19_approveBuddyRequestedTaskTest(java.lang.String)[pri:18, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc19_approveBuddyRequestedTaskTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc20_completedTaskUpdatedInSupervisors_JanitorsDetailScreenTest(java.lang.String)[pri:19, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc20_completedTaskUpdatedInSupervisors_JanitorsDetailScreenTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc21_validateBuddyCompletedTaskTest(java.lang.String)[pri:20, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc21_validateBuddyCompletedTaskTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+        <method signature="AdminTaskDeletionScenarioTest.Tc22_validateCompletedTaskUpdatedInAdminDashboardTest(java.lang.String)[pri:21, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" name="Tc22_validateCompletedTaskUpdatedInAdminDashboardTest" class="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-11-28T09:06:28 IST" name="AdminDifferentTaskDeletionTest" finished-at="2025-11-28T09:55:34 IST" duration-ms="2945663">
+      <class name="TaskMasterFlowTest.AdminTaskDeletionScenarioTest">
+        <test-method is-config="true" signature="loadConfigAndStartServer()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:06:26 IST" name="loadConfigAndStartServer" finished-at="2025-11-28T09:06:28 IST" duration-ms="2052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfigAndStartServer -->
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:06:28 IST" name="initDriver" finished-at="2025-11-28T09:06:49 IST" duration-ms="20578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:06:49 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:08:07 IST" duration-ms="78790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc01_assign_Delete_AssignTaskOfSameFacilityTest(java.lang.String)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:08:07 IST" name="Tc01_assign_Delete_AssignTaskOfSameFacilityTest" finished-at="2025-11-28T09:11:14 IST" duration-ms="186900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc01_assign_Delete_AssignTaskOfSameFacilityTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:11:14 IST" name="afterMethod" finished-at="2025-11-28T09:11:14 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc01_assign_Delete_AssignTaskOfSameFacilityTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc01_assign_Delete_AssignTaskOfSameFacilityTest(java.lang.String)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:11:14 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:11:54 IST" duration-ms="39878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc02_pendingTaskValidationTest(java.lang.String)[pri:1, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:11:54 IST" name="Tc02_pendingTaskValidationTest" finished-at="2025-11-28T09:12:52 IST" duration-ms="58109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc02_pendingTaskValidationTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:12:52 IST" name="afterMethod" finished-at="2025-11-28T09:12:52 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc02_pendingTaskValidationTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc02_pendingTaskValidationTest(java.lang.String)[pri:1, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:12:52 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:13:32 IST" duration-ms="39865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc03_validateBuddyPendingTaskTest(java.lang.String)[pri:2, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:13:32 IST" name="Tc03_validateBuddyPendingTaskTest" finished-at="2025-11-28T09:15:09 IST" duration-ms="96993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc03_validateBuddyPendingTaskTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:15:09 IST" name="afterMethod" finished-at="2025-11-28T09:15:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc03_validateBuddyPendingTaskTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc03_validateBuddyPendingTaskTest(java.lang.String)[pri:2, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:15:09 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:15:48 IST" duration-ms="38768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc04_validationOf_PN_for_AcceptedTaskTest(java.lang.String)[pri:3, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:15:48 IST" name="Tc04_validationOf_PN_for_AcceptedTaskTest" finished-at="2025-11-28T09:17:56 IST" duration-ms="128039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc04_validationOf_PN_for_AcceptedTaskTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:17:56 IST" name="afterMethod" finished-at="2025-11-28T09:17:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc04_validationOf_PN_for_AcceptedTaskTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc04_validationOf_PN_for_AcceptedTaskTest(java.lang.String)[pri:3, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:17:56 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:18:35 IST" duration-ms="38562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc05_taskBuddyDashboardAcceptedTaskValidationTest(java.lang.String)[pri:4, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:18:35 IST" name="Tc05_taskBuddyDashboardAcceptedTaskValidationTest" finished-at="2025-11-28T09:19:45 IST" duration-ms="70397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc05_taskBuddyDashboardAcceptedTaskValidationTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:19:45 IST" name="afterMethod" finished-at="2025-11-28T09:19:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc05_taskBuddyDashboardAcceptedTaskValidationTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc05_taskBuddyDashboardAcceptedTaskValidationTest(java.lang.String)[pri:4, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:19:45 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:20:23 IST" duration-ms="38137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc06_taskbuddyAcceptedTask_UpdateInAdminDashboardTest(java.lang.String)[pri:5, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:20:23 IST" name="Tc06_taskbuddyAcceptedTask_UpdateInAdminDashboardTest" finished-at="2025-11-28T09:21:47 IST" duration-ms="84271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc06_taskbuddyAcceptedTask_UpdateInAdminDashboardTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:21:47 IST" name="afterMethod" finished-at="2025-11-28T09:21:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc06_taskbuddyAcceptedTask_UpdateInAdminDashboardTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc06_taskbuddyAcceptedTask_UpdateInAdminDashboardTest(java.lang.String)[pri:5, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:21:47 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:22:25 IST" duration-ms="37868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc07_adminDeleteTaskbuddyAcceptedTaskTest(java.lang.String)[pri:6, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:22:25 IST" name="Tc07_adminDeleteTaskbuddyAcceptedTaskTest" finished-at="2025-11-28T09:24:36 IST" duration-ms="131154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc07_adminDeleteTaskbuddyAcceptedTaskTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:24:36 IST" name="afterMethod" finished-at="2025-11-28T09:24:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc07_adminDeleteTaskbuddyAcceptedTaskTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc07_adminDeleteTaskbuddyAcceptedTaskTest(java.lang.String)[pri:6, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:24:36 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:25:14 IST" duration-ms="37601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc08_taskbuddyAcceptedTaskUpdatedInSupervisors_JanitorsDetailsScreenTest(java.lang.String)[pri:7, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:25:14 IST" name="Tc08_taskbuddyAcceptedTaskUpdatedInSupervisors_JanitorsDetailsScreenTest" finished-at="2025-11-28T09:26:07 IST" duration-ms="52500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc08_taskbuddyAcceptedTaskUpdatedInSupervisors_JanitorsDetailsScreenTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:26:07 IST" name="afterMethod" finished-at="2025-11-28T09:26:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc08_taskbuddyAcceptedTaskUpdatedInSupervisors_JanitorsDetailsScreenTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc08_taskbuddyAcceptedTaskUpdatedInSupervisors_JanitorsDetailsScreenTest(java.lang.String)[pri:7, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:26:07 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:26:46 IST" duration-ms="39707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc09_taskBuddyStartToWorkAcceptedTaskFlowTest(java.lang.String)[pri:8, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:26:46 IST" name="Tc09_taskBuddyStartToWorkAcceptedTaskFlowTest" finished-at="2025-11-28T09:29:20 IST" duration-ms="153726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc09_taskBuddyStartToWorkAcceptedTaskFlowTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:29:20 IST" name="afterMethod" finished-at="2025-11-28T09:29:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc09_taskBuddyStartToWorkAcceptedTaskFlowTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc09_taskBuddyStartToWorkAcceptedTaskFlowTest(java.lang.String)[pri:8, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:29:20 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:29:59 IST" duration-ms="38667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc10_taskBuddyDashboardOngoingTaskValidationTest(java.lang.String)[pri:9, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:29:59 IST" name="Tc10_taskBuddyDashboardOngoingTaskValidationTest" finished-at="2025-11-28T09:31:09 IST" duration-ms="70145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc10_taskBuddyDashboardOngoingTaskValidationTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:31:09 IST" name="afterMethod" finished-at="2025-11-28T09:31:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc10_taskBuddyDashboardOngoingTaskValidationTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc10_taskBuddyDashboardOngoingTaskValidationTest(java.lang.String)[pri:9, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:31:09 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:31:47 IST" duration-ms="37793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc11_taskbuddyOngoingTaskUpdateInAdminDashboardTest(java.lang.String)[pri:10, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:31:47 IST" name="Tc11_taskbuddyOngoingTaskUpdateInAdminDashboardTest" finished-at="2025-11-28T09:33:08 IST" duration-ms="81699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc11_taskbuddyOngoingTaskUpdateInAdminDashboardTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:33:08 IST" name="afterMethod" finished-at="2025-11-28T09:33:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc11_taskbuddyOngoingTaskUpdateInAdminDashboardTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc11_taskbuddyOngoingTaskUpdateInAdminDashboardTest(java.lang.String)[pri:10, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:33:08 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:33:46 IST" duration-ms="37783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc12_adminDeleteTaskbuddyOngoingTaskTest(java.lang.String)[pri:11, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:33:46 IST" name="Tc12_adminDeleteTaskbuddyOngoingTaskTest" finished-at="2025-11-28T09:35:56 IST" duration-ms="130299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc12_adminDeleteTaskbuddyOngoingTaskTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:35:56 IST" name="afterMethod" finished-at="2025-11-28T09:35:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc12_adminDeleteTaskbuddyOngoingTaskTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc12_adminDeleteTaskbuddyOngoingTaskTest(java.lang.String)[pri:11, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:35:56 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:36:36 IST" duration-ms="39807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc13_taskbuddyOngoingTaskUpdatedInSupervisors_JanitorsDetailsScreenTest(java.lang.String)[pri:12, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:36:36 IST" name="Tc13_taskbuddyOngoingTaskUpdatedInSupervisors_JanitorsDetailsScreenTest" finished-at="2025-11-28T09:37:30 IST" duration-ms="53413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc13_taskbuddyOngoingTaskUpdatedInSupervisors_JanitorsDetailsScreenTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:37:30 IST" name="afterMethod" finished-at="2025-11-28T09:37:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc13_taskbuddyOngoingTaskUpdatedInSupervisors_JanitorsDetailsScreenTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc13_taskbuddyOngoingTaskUpdatedInSupervisors_JanitorsDetailsScreenTest(java.lang.String)[pri:12, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:37:30 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:38:08 IST" duration-ms="38083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc14_validationOf_PN_for_RequestforClosureTaskTest(java.lang.String)[pri:13, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:38:08 IST" name="Tc14_validationOf_PN_for_RequestforClosureTaskTest" finished-at="2025-11-28T09:40:26 IST" duration-ms="137889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc14_validationOf_PN_for_RequestforClosureTaskTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:40:26 IST" name="afterMethod" finished-at="2025-11-28T09:40:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc14_validationOf_PN_for_RequestforClosureTaskTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc14_validationOf_PN_for_RequestforClosureTaskTest(java.lang.String)[pri:13, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:40:26 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:41:03 IST" duration-ms="37673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc15_taskBuddyDashboardClosureTaskValidationTest(java.lang.String)[pri:14, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:41:03 IST" name="Tc15_taskBuddyDashboardClosureTaskValidationTest" finished-at="2025-11-28T09:42:12 IST" duration-ms="68320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc15_taskBuddyDashboardClosureTaskValidationTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:42:12 IST" name="afterMethod" finished-at="2025-11-28T09:42:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc15_taskBuddyDashboardClosureTaskValidationTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc15_taskBuddyDashboardClosureTaskValidationTest(java.lang.String)[pri:14, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:42:12 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:42:50 IST" duration-ms="37900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc16_validateClosureTaskIsUpdatedInSupervisors_JanitorsDetailScreenTest(java.lang.String)[pri:15, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:42:50 IST" name="Tc16_validateClosureTaskIsUpdatedInSupervisors_JanitorsDetailScreenTest" finished-at="2025-11-28T09:43:42 IST" duration-ms="52530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc16_validateClosureTaskIsUpdatedInSupervisors_JanitorsDetailScreenTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:43:42 IST" name="afterMethod" finished-at="2025-11-28T09:43:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc16_validateClosureTaskIsUpdatedInSupervisors_JanitorsDetailScreenTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc16_validateClosureTaskIsUpdatedInSupervisors_JanitorsDetailScreenTest(java.lang.String)[pri:15, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:43:42 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:44:20 IST" duration-ms="38121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc17_taskbuddyClosureTaskUpdateInAdminDashboardTest(java.lang.String)[pri:16, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:44:20 IST" name="Tc17_taskbuddyClosureTaskUpdateInAdminDashboardTest" finished-at="2025-11-28T09:45:41 IST" duration-ms="80686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc17_taskbuddyClosureTaskUpdateInAdminDashboardTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:45:41 IST" name="afterMethod" finished-at="2025-11-28T09:45:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc17_taskbuddyClosureTaskUpdateInAdminDashboardTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc17_taskbuddyClosureTaskUpdateInAdminDashboardTest(java.lang.String)[pri:16, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:45:41 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:46:19 IST" duration-ms="38037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc18_verifyAdminDelete_BuddyRequestForClosureTaskTest(java.lang.String)[pri:17, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:46:19 IST" name="Tc18_verifyAdminDelete_BuddyRequestForClosureTaskTest" finished-at="2025-11-28T09:48:30 IST" duration-ms="130993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc18_verifyAdminDelete_BuddyRequestForClosureTaskTest -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:48:30 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:49:08 IST" duration-ms="38219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:48:30 IST" name="afterMethod" finished-at="2025-11-28T09:48:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc18_verifyAdminDelete_BuddyRequestForClosureTaskTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc18_verifyAdminDelete_BuddyRequestForClosureTaskTest(java.lang.String)[pri:17, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="Tc19_approveBuddyRequestedTaskTest(java.lang.String)[pri:18, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:49:08 IST" name="Tc19_approveBuddyRequestedTaskTest" finished-at="2025-11-28T09:50:06 IST" duration-ms="58370" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [dabb11ee-af38-4543-b479-b944753ce21d, findElement {using=xpath, value=//android.widget.TextView[@resource-id="android:id/title" and contains(@text,"Task Approved by Supervisor")]}]
+Capabilities {appium:app: ./apps/Nov17.apk, appium:appActivity: com.woloo.smarthygiene.Main..., appium:appPackage: com.woloo.smarthygiene, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: ./apps/Nov17.apk, appActivity: com.woloo.smarthygiene.Main..., appPackage: com.woloo.smarthygiene, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Galaxy A13, newCommandTimeout: 120, noReset: false, platformName: ANDROID, platformVersion: 14.0}, appium:deviceApiLevel: 34, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A135F, appium:deviceName: RZ8TA0PDHLX, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2408, appium:deviceUDID: RZ8TA0PDHLX, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 120, appium:noReset: false, appium:pixelRatio: 2.8125, appium:platformVersion: 14, appium:statBarHeight: 70, appium:takesScreenshot: true, appium:viewportRect: {height: 2338, left: 0, top: 70, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: dabb11ee-af38-4543-b479-b944753ce21d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [dabb11ee-af38-4543-b479-b944753ce21d, findElement {using=xpath, value=//android.widget.TextView[@resource-id="android:id/title" and contains(@text,"Task Approved by Supervisor")]}]
+Capabilities {appium:app: ./apps/Nov17.apk, appium:appActivity: com.woloo.smarthygiene.Main..., appium:appPackage: com.woloo.smarthygiene, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: ./apps/Nov17.apk, appActivity: com.woloo.smarthygiene.Main..., appPackage: com.woloo.smarthygiene, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Galaxy A13, newCommandTimeout: 120, noReset: false, platformName: ANDROID, platformVersion: 14.0}, appium:deviceApiLevel: 34, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A135F, appium:deviceName: RZ8TA0PDHLX, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2408, appium:deviceUDID: RZ8TA0PDHLX, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 120, appium:noReset: false, appium:pixelRatio: 2.8125, appium:platformVersion: 14, appium:statBarHeight: 70, appium:takesScreenshot: true, appium:viewportRect: {height: 2338, left: 0, top: 70, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: dabb11ee-af38-4543-b479-b944753ce21d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at TaskMasterFlowTest.AdminTaskDeletionScenarioTest.Tc19_approveBuddyRequestedTaskTest(AdminTaskDeletionScenarioTest.java:693)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc19_approveBuddyRequestedTaskTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:50:09 IST" name="afterMethod" finished-at="2025-11-28T09:50:10 IST" duration-ms="1393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc19_approveBuddyRequestedTaskTest status=FAILURE method=AdminTaskDeletionScenarioTest.Tc19_approveBuddyRequestedTaskTest(java.lang.String)[pri:18, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:50:10 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:50:47 IST" duration-ms="37292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc20_completedTaskUpdatedInSupervisors_JanitorsDetailScreenTest(java.lang.String)[pri:19, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:50:47 IST" name="Tc20_completedTaskUpdatedInSupervisors_JanitorsDetailScreenTest" finished-at="2025-11-28T09:51:46 IST" duration-ms="58237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc20_completedTaskUpdatedInSupervisors_JanitorsDetailScreenTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:51:46 IST" name="afterMethod" finished-at="2025-11-28T09:51:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc20_completedTaskUpdatedInSupervisors_JanitorsDetailScreenTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc20_completedTaskUpdatedInSupervisors_JanitorsDetailScreenTest(java.lang.String)[pri:19, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:51:46 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:52:24 IST" duration-ms="38037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc21_validateBuddyCompletedTaskTest(java.lang.String)[pri:20, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:52:24 IST" name="Tc21_validateBuddyCompletedTaskTest" finished-at="2025-11-28T09:53:35 IST" duration-ms="71101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc21_validateBuddyCompletedTaskTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:53:35 IST" name="afterMethod" finished-at="2025-11-28T09:53:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc21_validateBuddyCompletedTaskTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc21_validateBuddyCompletedTaskTest(java.lang.String)[pri:20, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="resetAppBeforeTest()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:53:35 IST" name="resetAppBeforeTest" finished-at="2025-11-28T09:54:13 IST" duration-ms="37957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppBeforeTest -->
+        <test-method signature="Tc22_validateCompletedTaskUpdatedInAdminDashboardTest(java.lang.String)[pri:21, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:54:13 IST" name="Tc22_validateCompletedTaskUpdatedInAdminDashboardTest" finished-at="2025-11-28T09:55:33 IST" duration-ms="79982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc22_validateCompletedTaskUpdatedInAdminDashboardTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:55:33 IST" name="afterMethod" finished-at="2025-11-28T09:55:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc22_validateCompletedTaskUpdatedInAdminDashboardTest status=SUCCESS method=AdminTaskDeletionScenarioTest.Tc22_validateCompletedTaskUpdatedInAdminDashboardTest(java.lang.String)[pri:21, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:55:33 IST" name="quitDriver" finished-at="2025-11-28T09:55:34 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="stopServer()[pri:0, instance:TaskMasterFlowTest.AdminTaskDeletionScenarioTest@32502377]" started-at="2025-11-28T09:55:34 IST" name="stopServer" finished-at="2025-11-28T09:55:34 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- TaskMasterFlowTest.AdminTaskDeletionScenarioTest -->
+    </test> <!-- AdminDifferentTaskDeletionTest -->
+  </suite> <!-- Suite -->
+</testng-results>

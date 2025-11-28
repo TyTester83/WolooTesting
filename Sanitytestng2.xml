@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <listeners>
+    <listener class-name="Utilities.ListenerImpUtility"/>
+  </listeners>
+  <test name="TaskMasterFlowTest_AdminTaskDeletionScenarioTest">
+  <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <parameter name="rowNumber" value="1" />
+    <classes>
+     <class name="TaskMasterFlowTest.NewUserPurchaseClassicSubscriptionThroughRenewItLinkTest"/>
+      <class name="TaskMasterFlowTest.NewUserPurchasePremiumSubscriptionThrough_RenewItLinkTest"/>
+      <class name="TaskMasterFlowTest.AddNewFacilityTest"/>
+     <class name="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

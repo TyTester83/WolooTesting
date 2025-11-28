@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <listeners>
+    <listener class-name="Utilities.ListenerImpUtility"/>
+  </listeners>
+  <test name="NewUserFlowTest">
+    <parameter name="rowNumber" value="1" />
+    <classes>  
+      <class name="TaskMasterFlowTest.NewUserAccountCreationFlowTest"/>
+      <class name="TaskMasterFlowTest.AddNewTaskbuddyTest"/>
+      <class name="TaskMasterFlowTest.AdminTaskDeletionScenarioTest"/>
+      <class name="TaskMasterFlowTest.SupervisorRejectRequestForClosureTaskTest"/>
+      <class name="TaskMasterFlowTest.SupervisorReassign_RejectedOfClosureTaskTest"/>
+      <class name="TaskMasterFlowTest.TaskBuddyRejectedTaskReassignAndTaskCompletionTest"/>
+      <class name="TaskMasterFlowTest.AssignSingleTaskToDifferentTimeTest"/>
+      <class name="TaskMasterFlowTest.AssignMultipleTaskDifferentTimingTest"/>
+      <class name="TaskMasterFlowTest.AssignCumulativeTaskTest"/>
+      <class name="TaskMasterFlowTest.NewUserPurchaseSubscriptionThroughRenewItLinkTest"/>
+      <class name="NewAdminFlowTest.UpgradeToPremiumTest">
+        <methods>
+          <include name="Tc01_upgradePremium_RenewMembership_ImmediatelyTest"/>
+        </methods>
+      </class>
+      <class name="NewAdminFlowTest.AddNewFacilityTest">
+        <methods>
+          <include name="TC01_addNew_ClassicFacilityTest"/>
+        </methods>
+      </class>
+      <class name="TaskMasterFlowTest.AdminAssignTaskToDifferentFacilityTest"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

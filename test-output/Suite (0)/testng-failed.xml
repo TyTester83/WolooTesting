@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (0)]">
+  <listeners>
+    <listener class-name="Utilities.ListenerImpUtility"/>
+  </listeners>
+  <test thread-count="5" name="TaskMasterFlowTest_AdminTaskDeletionScenarioTest(failed)">
+    <parameter name="rowNumber" value="1"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TaskMasterFlowTest.AdminTaskDeletionScenarioTest">
+        <methods>
+          <include name="Tc05_taskBuddyDashboardAcceptedTaskValidationTest"/>
+          <include name="Tc13_taskbuddyOngoingTaskUpdatedInSupervisors_JanitorsDetailsScreenTest"/>
+          <include name="stopServer"/>
+          <include name="Tc10_taskBuddyDashboardOngoingTaskValidationTest"/>
+          <include name="closeApp"/>
+          <include name="Tc14_validationOf_PN_for_RequestforClosureTaskTest"/>
+          <include name="launchApp"/>
+          <include name="tearDown"/>
+          <include name="Tc11_taskbuddyOngoingTaskUpdateInAdminDashboardTest"/>
+          <include name="Tc20_completedTaskUpdatedInSupervisors_JanitorsDetailScreenTest"/>
+          <include name="Tc03_validateBuddyPendingTaskTest" invocation-numbers="0"/>
+          <include name="Tc16_validateClosureTaskIsUpdatedInSupervisors_JanitorsDetailScreenTest"/>
+          <include name="setup"/>
+          <include name="Tc19_approveBuddyRequestedTaskTest"/>
+          <include name="Tc02_pendingTaskValidationTest" invocation-numbers="0"/>
+          <include name="Tc04_validationOf_PN_for_AcceptedTaskTest"/>
+          <include name="Tc21_validateBuddyCompletedTaskTest"/>
+          <include name="Tc18_verifyAdminDelete_BuddyRequestForClosureTaskTest"/>
+          <include name="loadConfig"/>
+          <include name="Tc15_taskBuddyDashboardClosureTaskValidationTest"/>
+          <include name="Tc12_adminDeleteTaskbuddyOngoingTaskTest"/>
+          <include name="Tc09_taskBuddyStartToWorkAcceptedTaskFlowTest"/>
+          <include name="Tc07_adminDeleteTaskbuddyAcceptedTaskTest"/>
+          <include name="Tc08_taskbuddyAcceptedTaskUpdatedInSupervisors_JanitorsDetailsScreenTest"/>
+          <include name="Tc22_validateCompletedTaskUpdatedInAdminDashboardTest"/>
+          <include name="Tc06_taskbuddyAcceptedTask_UpdateInAdminDashboardTest"/>
+          <include name="Tc17_taskbuddyClosureTaskUpdateInAdminDashboardTest"/>
+        </methods>
+      </class> <!-- TaskMasterFlowTest.AdminTaskDeletionScenarioTest -->
+      <class name="TaskMasterFlowTest.AddNewFacilityTest">
+        <methods>
+          <include name="TC02_addNew_PremiumFacilityTest" invocation-numbers="0"/>
+          <include name="stopServer"/>
+          <include name="loadConfig"/>
+          <include name="closeApp"/>
+          <include name="setup"/>
+          <include name="launchApp"/>
+          <include name="TC01_addNew_ClassicFacilityTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TaskMasterFlowTest.AddNewFacilityTest -->
+      <class name="TaskMasterFlowTest.NewUserPurchaseClassicSubscriptionThroughRenewItLinkTest">
+        <methods>
+          <include name="Tc02_newUser_Tap_RenewItLink_Purchasing_ClassicSubscriptionTest" invocation-numbers="0"/>
+          <include name="Tc01_newUserTrytoPurchasingNewFacilityTest" invocation-numbers="0"/>
+          <include name="stopServer"/>
+          <include name="loadConfig"/>
+          <include name="closeApp"/>
+          <include name="setup"/>
+          <include name="launchApp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TaskMasterFlowTest.NewUserPurchaseClassicSubscriptionThroughRenewItLinkTest -->
+    </classes>
+  </test> <!-- TaskMasterFlowTest_AdminTaskDeletionScenarioTest(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

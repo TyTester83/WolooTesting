@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <listeners>
+    <listener class-name="Utilities.ListenerImpUtility"/>
+  </listeners>
+  <test name="AdminAssignDifferentTaskAndTimeScenarioTest">
+  <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <parameter name="rowNumber" value="1" />
+    <classes>
+      <class name="TaskMasterFlowTest.AssignSingleTaskToDifferentTimeTest"/>
+     <class name="TaskMasterFlowTest.AssignMultipleTaskDifferentTimingTest"/>
+      <!--<class name="TaskMasterFlowTest.AssignCumulativeTaskTest"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

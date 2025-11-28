@@ -1,0 +1,4057 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>WHMS Automation Test Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">TASKMASTER - Automated Test Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 27, 2025 09:10:23 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Tc01_addNewTaskbuddyForClassicFacilityTest</p>
+            <p class="text-sm">
+              <span>9:12:05 am</span> / <span>00:04:00:591</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Tc01_addNewTaskbuddyForClassicFacilityTest</h5>
+<span class='badge badge-success'>11.27.2025 9:12:05 am</span>
+<span class='badge badge-danger'>11.27.2025 9:16:05 am</span>
+<span class='badge badge-default'>00:04:00:591</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test Method: Tc01_addNewTaskbuddyForClassicFacilityTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:12:07 am</td>
+        <td>
+          Logging in as admin with mobile number: 8888881110
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:12:19 am</td>
+        <td>
+          Entered mobile number into field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:12:23 am</td>
+        <td>
+          Clicked Send OTP button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:12:23 am</td>
+        <td>
+          Login flow executed (entered mobile and clicked Send OTP)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:12:23 am</td>
+        <td>
+          Admin login submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:12:24 am</td>
+        <td>
+          Submit button is visible before entering OTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:12:24 am</td>
+        <td>
+          OTP text field is visible before entering OTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:12:36 am</td>
+        <td>
+          Entered OTP into field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:12:42 am</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:12:42 am</td>
+        <td>
+          OTP entered for admin login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:12:42 am</td>
+        <td>
+          Switching store to dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:12:54 am</td>
+        <td>
+          Store element is present
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:12:58 am</td>
+        <td>
+          Tasq Master tab clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:00 am</td>
+        <td>
+          Admin Dashboard text is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:05 am</td>
+        <td>
+          Validating Add New Facility screen UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:05 am</td>
+        <td>
+          Scrolling down to check free trial text
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:07 am</td>
+        <td>
+          Free trial text is visible after scroll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:07 am</td>
+        <td>
+          Tapping Add New Task button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:11 am</td>
+        <td>
+          Tapped Add New Task button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:11 am</td>
+        <td>
+          Validating Assign Task Buddy popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:11 am</td>
+        <td>
+          Task buddy text is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:11 am</td>
+        <td>
+          Assign New Task Buddy button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:11 am</td>
+        <td>
+          Assign Existing Task Buddy button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:11 am</td>
+        <td>
+          Selecting task buddy option: New
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:15 am</td>
+        <td>
+          Clicked Assign New Task Buddy button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:16 am</td>
+        <td>
+          Opening existing facility dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:20 am</td>
+        <td>
+          Opened existing facility dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:24 am</td>
+        <td>
+          Selected facility: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:28 am</td>
+        <td>
+          Facility selected and navigated forward: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:29 am</td>
+        <td>
+          Validating Assign Task screen elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:29 am</td>
+        <td>
+          Assign Task screen validation completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:29 am</td>
+        <td>
+          Assigning task 'Dusting' to new buddy from 09:30 PM to 09:55 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:29 am</td>
+        <td>
+          Opening cleaning task dropdown to select task: Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:35 am</td>
+        <td>
+          Selected task option: Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:36 am</td>
+        <td>
+          Closed task dropdown after selection
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:39 am</td>
+        <td>
+          Adding timing: 09:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:50 am</td>
+        <td>
+          Validating Schedule Task UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:52 am</td>
+        <td>
+          Schedule Task UI elements validated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:52 am</td>
+        <td>
+          Scrolling to find hour: 09
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:13:52 am</td>
+        <td>
+          Target hour found: 9
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:13:52 am</td>
+        <td>
+          Scrolling to find minute: 30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:14:34 am</td>
+        <td>
+          Target minute found: 30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:14:34 am</td>
+        <td>
+          Scrolling to find meridian: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:14:35 am</td>
+        <td>
+          Current meridian: AM | Target: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:14:36 am</td>
+        <td>
+          Scrolled up to PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:14:38 am</td>
+        <td>
+          validating Popup Ui 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:14:38 am</td>
+        <td>
+          Accepted task confirm Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:14:38 am</td>
+        <td>
+          Added Task timing: 09:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:14:38 am</td>
+        <td>
+          Validating task timing (new): 9:30 PM - 9:55 PM for Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:14:42 am</td>
+        <td>
+          New task timing validation passed for Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:14:59 am</td>
+        <td>
+          Next button tapped
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:14:59 am</td>
+        <td>
+          Validating Choose Admin screen elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:14:59 am</td>
+        <td>
+          Verified 'Monitor Yourself' option visibility
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:00 am</td>
+        <td>
+          Choose Admin screen validation completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:15:00 am</td>
+        <td>
+          Choosing admin option: supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:01 am</td>
+        <td>
+          Selected 'Supervisor' option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:15:01 am</td>
+        <td>
+          Tapping Continue button via coordinates
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:01 am</td>
+        <td>
+          Clicked Continue button and proceeded to next screen
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:15:01 am</td>
+        <td>
+          Validating Assign Supervisor screen for admin type: Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:02 am</td>
+        <td>
+          Assign Supervisor screen validation completed for Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:15:02 am</td>
+        <td>
+          Entering supervisor details for admin type: Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:10 am</td>
+        <td>
+          Entered supervisor name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:17 am</td>
+        <td>
+          Entered mobile number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:15:18 am</td>
+        <td>
+          Keyboard hidden
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:19 am</td>
+        <td>
+          Supervisor details entered and proceeded to next screen
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:15:19 am</td>
+        <td>
+          Validating Task Buddy UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:20 am</td>
+        <td>
+          Task Buddy UI elements are validated successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:15:20 am</td>
+        <td>
+          Filling Task Buddy details: Name, Mobile, Gender
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:20 am</td>
+        <td>
+          Task Buddy Name textfield is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:28 am</td>
+        <td>
+          Entered Task Buddy Name: Mani
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:36 am</td>
+        <td>
+          Entered Mobile Number: 8888881115
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:37 am</td>
+        <td>
+          Gender icons are visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:41 am</td>
+        <td>
+          Selected Male gender
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:41 am</td>
+        <td>
+          Male tick mark displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:15:45 am</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:15:45 am</td>
+        <td>
+          Validating Congratulation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:16:05 am</td>
+        <td>
+          Tc01_addNewTaskbuddyForClassicFacilityTest - FAILED | Exception: Expected condition failed: waiting for visibility of Located by By.chained({AppiumBy.accessibilityId: Congratulations!}) (tried for 20 second(s) with 500 milliseconds interval)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:16:05 am</td>
+        <td>
+          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({AppiumBy.accessibilityId: Congratulations!}) (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at adminLoginRepo.CongratulationPopup.congratsUIvalidation(CongratulationPopup.java:64)
+	at TaskMasterFlowTest.AddNewTaskbuddyAllFlowTest.Tc01_addNewTaskbuddyForClassicFacilityTest(AddNewTaskbuddyAllFlowTest.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.accessibilityId: Congratulations!})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:64)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$MqYZbk7x.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 28 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@70f5f6c7 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	... 36 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.accessibilityId: Congratulations!})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:53)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 38 more
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Tc02_addNewTaskbuddy_SingleTask_MultipleTaskTimeTest</p>
+            <p class="text-sm">
+              <span>9:16:43 am</span> / <span>00:04:22:262</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Tc02_addNewTaskbuddy_SingleTask_MultipleTaskTimeTest</h5>
+<span class='badge badge-success'>11.27.2025 9:16:43 am</span>
+<span class='badge badge-danger'>11.27.2025 9:21:06 am</span>
+<span class='badge badge-default'>00:04:22:262</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test Method: Tc02_addNewTaskbuddy_SingleTask_MultipleTaskTimeTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:16:43 am</td>
+        <td>
+          Logging in as admin with mobile number: 8888881110
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:16:53 am</td>
+        <td>
+          Entered mobile number into field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:16:56 am</td>
+        <td>
+          Clicked Send OTP button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:16:56 am</td>
+        <td>
+          Login flow executed (entered mobile and clicked Send OTP)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:16:56 am</td>
+        <td>
+          Admin login submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:16:57 am</td>
+        <td>
+          Submit button is visible before entering OTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:16:58 am</td>
+        <td>
+          OTP text field is visible before entering OTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:08 am</td>
+        <td>
+          Entered OTP into field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:14 am</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:14 am</td>
+        <td>
+          OTP entered for admin login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:17:14 am</td>
+        <td>
+          Switching store to dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:26 am</td>
+        <td>
+          Store element is present
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:30 am</td>
+        <td>
+          Tasq Master tab clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:32 am</td>
+        <td>
+          Admin Dashboard text is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:17:36 am</td>
+        <td>
+          Validating Add New Facility screen UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:17:36 am</td>
+        <td>
+          Scrolling down to check free trial text
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:38 am</td>
+        <td>
+          Free trial text is visible after scroll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:17:38 am</td>
+        <td>
+          Tapping Add New Task button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:42 am</td>
+        <td>
+          Tapped Add New Task button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:17:42 am</td>
+        <td>
+          Validating Assign Task Buddy popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:42 am</td>
+        <td>
+          Task buddy text is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:42 am</td>
+        <td>
+          Assign New Task Buddy button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:42 am</td>
+        <td>
+          Assign Existing Task Buddy button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:17:42 am</td>
+        <td>
+          Selecting task buddy option: New
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:46 am</td>
+        <td>
+          Clicked Assign New Task Buddy button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:17:46 am</td>
+        <td>
+          Opening existing facility dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:51 am</td>
+        <td>
+          Opened existing facility dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:54 am</td>
+        <td>
+          Selected facility: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:17:59 am</td>
+        <td>
+          Facility selected and navigated forward: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:17:59 am</td>
+        <td>
+          Validating Assign Task screen elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:18:00 am</td>
+        <td>
+          Assign Task screen validation completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:18:00 am</td>
+        <td>
+          Assigning multiple timings for task 'Mopping' (2 slots)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:18:00 am</td>
+        <td>
+          Opening cleaning task dropdown to select task: Mopping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:18:05 am</td>
+        <td>
+          Selected task option: Mopping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:18:06 am</td>
+        <td>
+          Closed task dropdown after selection
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:18:07 am</td>
+        <td>
+          Verified estimated time: 30 min
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:18:07 am</td>
+        <td>
+          Adding timing slot 1: 9:00 PM - 9:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:18:08 am</td>
+        <td>
+          Adding timing: 09:00 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:18:19 am</td>
+        <td>
+          Validating Schedule Task UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:18:20 am</td>
+        <td>
+          Schedule Task UI elements validated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:18:20 am</td>
+        <td>
+          Scrolling to find hour: 09
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:18:20 am</td>
+        <td>
+          Target hour found: 9
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:18:20 am</td>
+        <td>
+          Scrolling to find minute: 00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:00 am</td>
+        <td>
+          Target minute found: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:00 am</td>
+        <td>
+          Scrolling to find meridian: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:00 am</td>
+        <td>
+          Current meridian: AM | Target: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:01 am</td>
+        <td>
+          Scrolled up to PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:04 am</td>
+        <td>
+          validating Popup Ui 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:04 am</td>
+        <td>
+          Accepted task confirm Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:04 am</td>
+        <td>
+          Added Task timing: 09:00 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:04 am</td>
+        <td>
+          Validating task timing (new): 9:00 PM - 9:30 PM for Mopping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:06 am</td>
+        <td>
+          New task timing validation passed for Mopping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:06 am</td>
+        <td>
+          Timing slot 1 validated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:06 am</td>
+        <td>
+          Adding timing slot 2: 9:30 PM - 10:00 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:07 am</td>
+        <td>
+          Adding timing: 09:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:08 am</td>
+        <td>
+          Validating Schedule Task UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:09 am</td>
+        <td>
+          Schedule Task UI elements validated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:09 am</td>
+        <td>
+          Scrolling to find hour: 09
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:09 am</td>
+        <td>
+          Target hour found: 9
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:09 am</td>
+        <td>
+          Scrolling to find minute: 30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:33 am</td>
+        <td>
+          Target minute found: 30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:33 am</td>
+        <td>
+          Scrolling to find meridian: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:34 am</td>
+        <td>
+          Current meridian: AM | Target: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:35 am</td>
+        <td>
+          Scrolled up to PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:36 am</td>
+        <td>
+          validating Popup Ui 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:37 am</td>
+        <td>
+          Accepted task confirm Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:37 am</td>
+        <td>
+          Added Task timing: 09:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:37 am</td>
+        <td>
+          Validating task timing (new): 9:30 PM - 10:00 PM for Mopping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:39 am</td>
+        <td>
+          New task timing validation passed for Mopping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:39 am</td>
+        <td>
+          Timing slot 2 validated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:42 am</td>
+        <td>
+          All multiple timings completed, proceeded to next
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:43 am</td>
+        <td>
+          Validating Choose Admin screen elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:43 am</td>
+        <td>
+          Verified 'Monitor Yourself' option visibility
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:43 am</td>
+        <td>
+          Choose Admin screen validation completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:43 am</td>
+        <td>
+          Choosing admin option: supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:44 am</td>
+        <td>
+          Selected 'Supervisor' option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:44 am</td>
+        <td>
+          Tapping Continue button via coordinates
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:44 am</td>
+        <td>
+          Clicked Continue button and proceeded to next screen
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:44 am</td>
+        <td>
+          Validating Assign Supervisor screen for admin type: Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:45 am</td>
+        <td>
+          Assign Supervisor screen validation completed for Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:19:45 am</td>
+        <td>
+          Entering supervisor details for admin type: Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:19:53 am</td>
+        <td>
+          Entered supervisor name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:01 am</td>
+        <td>
+          Entered mobile number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:20:01 am</td>
+        <td>
+          Keyboard hidden
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:02 am</td>
+        <td>
+          Supervisor details entered and proceeded to next screen
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:20:02 am</td>
+        <td>
+          Validating Task Buddy UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:03 am</td>
+        <td>
+          Task Buddy UI elements are validated successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:20:03 am</td>
+        <td>
+          Filling Task Buddy details: Name, Mobile, Gender
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:03 am</td>
+        <td>
+          Task Buddy Name textfield is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:10 am</td>
+        <td>
+          Entered Task Buddy Name: Riya
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:19 am</td>
+        <td>
+          Entered Mobile Number: 8888881116
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:20 am</td>
+        <td>
+          Gender icons are visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:24 am</td>
+        <td>
+          Selected Female gender
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:24 am</td>
+        <td>
+          Female tick mark displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:27 am</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:20:27 am</td>
+        <td>
+          Validating Congratulation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:32 am</td>
+        <td>
+          Clicked Monitor button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:20:32 am</td>
+        <td>
+          Validating task buddy for facility: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:38 am</td>
+        <td>
+          Facility 'Hotel Taj' clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:42 am</td>
+        <td>
+          Task buddy dropdown clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:49 am</td>
+        <td>
+          Task buddy 'Riya' selected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:20:49 am</td>
+        <td>
+          Calculating task efficiency
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:20:56 am</td>
+        <td>
+          Efficiency matches. Expected: 0% and found: 0%
+Task Buddy
+Efficiency
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:20:57 am</td>
+        <td>
+          Initiating logout from Admin Profile Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:21:02 am</td>
+        <td>
+          Logout button clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:21:02 am</td>
+        <td>
+          Validating logout confirmation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:21:02 am</td>
+        <td>
+          Validated logout confirmation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:21:02 am</td>
+        <td>
+          Yes button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:21:05 am</td>
+        <td>
+          Yes button clicked to logout
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:21:05 am</td>
+        <td>
+          Logout confirmed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:21:06 am</td>
+        <td>
+          Tc02_addNewTaskbuddy_SingleTask_MultipleTaskTimeTest - PASSED
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Tc03_addNewTaskbuddy_MultipleTask_differentTaskTimeTest</p>
+            <p class="text-sm">
+              <span>9:21:44 am</span> / <span>00:04:35:989</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Tc03_addNewTaskbuddy_MultipleTask_differentTaskTimeTest</h5>
+<span class='badge badge-success'>11.27.2025 9:21:44 am</span>
+<span class='badge badge-danger'>11.27.2025 9:26:20 am</span>
+<span class='badge badge-default'>00:04:35:989</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test Method: Tc03_addNewTaskbuddy_MultipleTask_differentTaskTimeTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:21:44 am</td>
+        <td>
+          Logging in as admin with mobile number: 8888881110
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:21:53 am</td>
+        <td>
+          Entered mobile number into field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:21:57 am</td>
+        <td>
+          Clicked Send OTP button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:21:57 am</td>
+        <td>
+          Login flow executed (entered mobile and clicked Send OTP)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:21:57 am</td>
+        <td>
+          Admin login submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:21:58 am</td>
+        <td>
+          Submit button is visible before entering OTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:00 am</td>
+        <td>
+          OTP text field is visible before entering OTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:10 am</td>
+        <td>
+          Entered OTP into field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:15 am</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:15 am</td>
+        <td>
+          OTP entered for admin login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:22:15 am</td>
+        <td>
+          Switching store to dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:27 am</td>
+        <td>
+          Store element is present
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:31 am</td>
+        <td>
+          Tasq Master tab clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:33 am</td>
+        <td>
+          Admin Dashboard text is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:22:37 am</td>
+        <td>
+          Validating Add New Facility screen UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:22:38 am</td>
+        <td>
+          Scrolling down to check free trial text
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:39 am</td>
+        <td>
+          Free trial text is visible after scroll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:22:39 am</td>
+        <td>
+          Tapping Add New Task button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:43 am</td>
+        <td>
+          Tapped Add New Task button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:22:43 am</td>
+        <td>
+          Validating Assign Task Buddy popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:43 am</td>
+        <td>
+          Task buddy text is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:43 am</td>
+        <td>
+          Assign New Task Buddy button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:43 am</td>
+        <td>
+          Assign Existing Task Buddy button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:22:43 am</td>
+        <td>
+          Selecting task buddy option: New
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:47 am</td>
+        <td>
+          Clicked Assign New Task Buddy button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:22:47 am</td>
+        <td>
+          Opening existing facility dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:51 am</td>
+        <td>
+          Opened existing facility dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:22:55 am</td>
+        <td>
+          Selected facility: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:23:00 am</td>
+        <td>
+          Facility selected and navigated forward: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:00 am</td>
+        <td>
+          Validating Assign Task screen elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:23:00 am</td>
+        <td>
+          Assign Task screen validation completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:00 am</td>
+        <td>
+          Assigning multiple tasks with different timings (2 tasks)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:00 am</td>
+        <td>
+          Processing task 1/2: Sweeping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:12 am</td>
+        <td>
+          Adding timing: 10:00 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:23 am</td>
+        <td>
+          Validating Schedule Task UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:23:24 am</td>
+        <td>
+          Schedule Task UI elements validated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:24 am</td>
+        <td>
+          Scrolling to find hour: 10
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:23:26 am</td>
+        <td>
+          Target hour found: 10
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:23:26 am</td>
+        <td>
+          Scrolling to find minute: 00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:16 am</td>
+        <td>
+          Target minute found: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:16 am</td>
+        <td>
+          Scrolling to find meridian: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:17 am</td>
+        <td>
+          Current meridian: AM | Target: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:18 am</td>
+        <td>
+          Scrolled up to PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:20 am</td>
+        <td>
+          validating Popup Ui 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:20 am</td>
+        <td>
+          Accepted task confirm Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:20 am</td>
+        <td>
+          Added Task timing: 10:00 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:20 am</td>
+        <td>
+          Validating task timing (new): 10:00 PM - 10:20 PM for Sweeping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:23 am</td>
+        <td>
+          New task timing validation passed for Sweeping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:23 am</td>
+        <td>
+          Task timing validated: 10:00 PM - 10:20 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:23 am</td>
+        <td>
+          Unchecking task Sweeping for next iteration
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:23 am</td>
+        <td>
+          Unchecking task option: Sweeping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:30 am</td>
+        <td>
+          Task unchecked: Sweeping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:30 am</td>
+        <td>
+          Processing task 2/2: Mopping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:37 am</td>
+        <td>
+          Adding timing: 10:20 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:37 am</td>
+        <td>
+          Validating Schedule Task UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:38 am</td>
+        <td>
+          Schedule Task UI elements validated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:38 am</td>
+        <td>
+          Scrolling to find hour: 10
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:41 am</td>
+        <td>
+          Target hour found: 10
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:41 am</td>
+        <td>
+          Scrolling to find minute: 20
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:49 am</td>
+        <td>
+          Target minute found: 20
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:49 am</td>
+        <td>
+          Scrolling to find meridian: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:50 am</td>
+        <td>
+          Current meridian: AM | Target: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:51 am</td>
+        <td>
+          Scrolled up to PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:52 am</td>
+        <td>
+          validating Popup Ui 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:53 am</td>
+        <td>
+          Accepted task confirm Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:53 am</td>
+        <td>
+          Added Task timing: 10:20 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:53 am</td>
+        <td>
+          Validating task timing (new): 10:20 PM - 10:50 PM for Mopping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:56 am</td>
+        <td>
+          New task timing validation passed for Mopping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:56 am</td>
+        <td>
+          Task timing validated: 10:20 PM - 10:50 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:57 am</td>
+        <td>
+          All multiple tasks with different timings completed, proceeded to next
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:58 am</td>
+        <td>
+          Validating Choose Admin screen elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:58 am</td>
+        <td>
+          Verified 'Monitor Yourself' option visibility
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:24:58 am</td>
+        <td>
+          Choose Admin screen validation completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:24:58 am</td>
+        <td>
+          Choosing admin option: supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:00 am</td>
+        <td>
+          Selected 'Supervisor' option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:00 am</td>
+        <td>
+          Tapping Continue button via coordinates
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:00 am</td>
+        <td>
+          Clicked Continue button and proceeded to next screen
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:00 am</td>
+        <td>
+          Validating Assign Supervisor screen for admin type: Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:01 am</td>
+        <td>
+          Assign Supervisor screen validation completed for Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:01 am</td>
+        <td>
+          Entering supervisor details for admin type: Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:09 am</td>
+        <td>
+          Entered supervisor name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:17 am</td>
+        <td>
+          Entered mobile number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:17 am</td>
+        <td>
+          Keyboard hidden
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:18 am</td>
+        <td>
+          Supervisor details entered and proceeded to next screen
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:18 am</td>
+        <td>
+          Validating Task Buddy UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:19 am</td>
+        <td>
+          Task Buddy UI elements are validated successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:19 am</td>
+        <td>
+          Filling Task Buddy details: Name, Mobile, Gender
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:19 am</td>
+        <td>
+          Task Buddy Name textfield is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:26 am</td>
+        <td>
+          Entered Task Buddy Name: Kayal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:35 am</td>
+        <td>
+          Entered Mobile Number: 8888881117
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:35 am</td>
+        <td>
+          Gender icons are visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:39 am</td>
+        <td>
+          Selected Female gender
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:39 am</td>
+        <td>
+          Female tick mark displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:43 am</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:43 am</td>
+        <td>
+          Validating Congratulation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:47 am</td>
+        <td>
+          Clicked Monitor button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:25:47 am</td>
+        <td>
+          Validating task buddy for facility: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:53 am</td>
+        <td>
+          Facility 'Hotel Taj' clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:25:57 am</td>
+        <td>
+          Task buddy dropdown clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:04 am</td>
+        <td>
+          Task buddy 'Kayal' selected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:04 am</td>
+        <td>
+          Calculating task efficiency
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:11 am</td>
+        <td>
+          Efficiency matches. Expected: 0% and found: 0%
+Task Buddy
+Efficiency
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:11 am</td>
+        <td>
+          Initiating logout from Admin Profile Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:16 am</td>
+        <td>
+          Logout button clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:16 am</td>
+        <td>
+          Validating logout confirmation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:16 am</td>
+        <td>
+          Validated logout confirmation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:16 am</td>
+        <td>
+          Yes button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:19 am</td>
+        <td>
+          Yes button clicked to logout
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:19 am</td>
+        <td>
+          Logout confirmed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:20 am</td>
+        <td>
+          Tc03_addNewTaskbuddy_MultipleTask_differentTaskTimeTest - PASSED
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Tc04_addNewTaskbuddyTaskDeletionFlowTest</p>
+            <p class="text-sm">
+              <span>9:26:59 am</span> / <span>00:03:53:070</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Tc04_addNewTaskbuddyTaskDeletionFlowTest</h5>
+<span class='badge badge-success'>11.27.2025 9:26:59 am</span>
+<span class='badge badge-danger'>11.27.2025 9:30:52 am</span>
+<span class='badge badge-default'>00:03:53:070</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test Method: Tc04_addNewTaskbuddyTaskDeletionFlowTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:26:59 am</td>
+        <td>
+          Logging in as admin with mobile number: 8888881110
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:09 am</td>
+        <td>
+          Entered mobile number into field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:12 am</td>
+        <td>
+          Clicked Send OTP button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:12 am</td>
+        <td>
+          Login flow executed (entered mobile and clicked Send OTP)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:12 am</td>
+        <td>
+          Admin login submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:13 am</td>
+        <td>
+          Submit button is visible before entering OTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:13 am</td>
+        <td>
+          OTP text field is visible before entering OTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:24 am</td>
+        <td>
+          Entered OTP into field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:29 am</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:29 am</td>
+        <td>
+          OTP entered for admin login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:29 am</td>
+        <td>
+          Switching store to dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:41 am</td>
+        <td>
+          Store element is present
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:45 am</td>
+        <td>
+          Tasq Master tab clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:47 am</td>
+        <td>
+          Admin Dashboard text is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:51 am</td>
+        <td>
+          Validating Add New Facility screen UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:51 am</td>
+        <td>
+          Scrolling down to check free trial text
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:53 am</td>
+        <td>
+          Free trial text is visible after scroll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:53 am</td>
+        <td>
+          Tapping Add New Task button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:56 am</td>
+        <td>
+          Tapped Add New Task button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:56 am</td>
+        <td>
+          Validating Assign Task Buddy popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:57 am</td>
+        <td>
+          Task buddy text is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:57 am</td>
+        <td>
+          Assign New Task Buddy button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:57 am</td>
+        <td>
+          Assign Existing Task Buddy button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:27:57 am</td>
+        <td>
+          Selecting task buddy option: New
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:01 am</td>
+        <td>
+          Clicked Assign New Task Buddy button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:01 am</td>
+        <td>
+          Opening existing facility dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:05 am</td>
+        <td>
+          Opened existing facility dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:09 am</td>
+        <td>
+          Selected facility: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:13 am</td>
+        <td>
+          Facility selected and navigated forward: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:13 am</td>
+        <td>
+          Validating Assign Task screen elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:14 am</td>
+        <td>
+          Assign Task screen validation completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:14 am</td>
+        <td>
+          Assigning task with deletion flow for New buddy: Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:14 am</td>
+        <td>
+          Opening cleaning task dropdown to select task: Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:19 am</td>
+        <td>
+          Selected task option: Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:20 am</td>
+        <td>
+          Closed task dropdown after selection
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:22 am</td>
+        <td>
+          Adding timing: 09:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:33 am</td>
+        <td>
+          Validating Schedule Task UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:35 am</td>
+        <td>
+          Schedule Task UI elements validated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:35 am</td>
+        <td>
+          Scrolling to find hour: 09
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:35 am</td>
+        <td>
+          Target hour found: 9
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:35 am</td>
+        <td>
+          Scrolling to find minute: 30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:39 am</td>
+        <td>
+          Target minute found: 30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:39 am</td>
+        <td>
+          Scrolling to find meridian: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:40 am</td>
+        <td>
+          Current meridian: AM | Target: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:41 am</td>
+        <td>
+          Scrolled up to PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:43 am</td>
+        <td>
+          validating Popup Ui 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:43 am</td>
+        <td>
+          Accepted task confirm Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:43 am</td>
+        <td>
+          Added Task timing: 09:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:44 am</td>
+        <td>
+          Added initial timing: 9:30 PM - 9:55 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:44 am</td>
+        <td>
+          Deleting task timing for new buddy: 9:30 PM - 9:55 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:44 am</td>
+        <td>
+          Checking if task visible: Hotel Taj at 9:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:46 am</td>
+        <td>
+          Task Delete popup Ui validated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:46 am</td>
+        <td>
+          Task timing Deleted successfully: 9:30 PM - 9:55 PM for Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:47 am</td>
+        <td>
+          Deleted new buddy timing, now adding new timing
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:48 am</td>
+        <td>
+          Adding timing: 09:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:28:58 am</td>
+        <td>
+          Validating Schedule Task UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:00 am</td>
+        <td>
+          Schedule Task UI elements validated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:00 am</td>
+        <td>
+          Scrolling to find hour: 09
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:00 am</td>
+        <td>
+          Target hour found: 9
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:00 am</td>
+        <td>
+          Scrolling to find minute: 30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:05 am</td>
+        <td>
+          Target minute found: 30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:05 am</td>
+        <td>
+          Scrolling to find meridian: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:05 am</td>
+        <td>
+          Current meridian: AM | Target: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:06 am</td>
+        <td>
+          Scrolled up to PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:08 am</td>
+        <td>
+          validating Popup Ui 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:08 am</td>
+        <td>
+          Accepted task confirm Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:08 am</td>
+        <td>
+          Added Task timing: 09:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:08 am</td>
+        <td>
+          Validating task timing (new): 9:30 PM - 9:55 PM for Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:10 am</td>
+        <td>
+          New task timing validation passed for Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:13 am</td>
+        <td>
+          Task deletion and re-assignment completed for new buddy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:14 am</td>
+        <td>
+          Validating Choose Admin screen elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:14 am</td>
+        <td>
+          Verified 'Monitor Yourself' option visibility
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:14 am</td>
+        <td>
+          Choose Admin screen validation completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:14 am</td>
+        <td>
+          Choosing admin option: supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:15 am</td>
+        <td>
+          Selected 'Supervisor' option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:15 am</td>
+        <td>
+          Tapping Continue button via coordinates
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:15 am</td>
+        <td>
+          Clicked Continue button and proceeded to next screen
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:15 am</td>
+        <td>
+          Validating Assign Supervisor screen for admin type: Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:16 am</td>
+        <td>
+          Assign Supervisor screen validation completed for Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:16 am</td>
+        <td>
+          Entering supervisor details for admin type: Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:23 am</td>
+        <td>
+          Entered supervisor name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:31 am</td>
+        <td>
+          Entered mobile number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:32 am</td>
+        <td>
+          Keyboard hidden
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:33 am</td>
+        <td>
+          Supervisor details entered and proceeded to next screen
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:33 am</td>
+        <td>
+          Validating Task Buddy UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:34 am</td>
+        <td>
+          Task Buddy UI elements are validated successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:34 am</td>
+        <td>
+          Filling Task Buddy details: Name, Mobile, Gender
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:34 am</td>
+        <td>
+          Task Buddy Name textfield is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:41 am</td>
+        <td>
+          Entered Task Buddy Name: Vimal
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:50 am</td>
+        <td>
+          Entered Mobile Number: 8888881118
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:51 am</td>
+        <td>
+          Gender icons are visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:54 am</td>
+        <td>
+          Selected Female gender
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:54 am</td>
+        <td>
+          Female tick mark displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:58 am</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:29:58 am</td>
+        <td>
+          Validating Congratulation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:02 am</td>
+        <td>
+          Clicked Monitor button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:02 am</td>
+        <td>
+          Validating task buddy for facility: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:26 am</td>
+        <td>
+          Facility 'Hotel Taj' clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:30 am</td>
+        <td>
+          Task buddy dropdown clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:37 am</td>
+        <td>
+          Task buddy 'Vimal' selected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:37 am</td>
+        <td>
+          Calculating task efficiency
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:44 am</td>
+        <td>
+          Efficiency matches. Expected: 0% and found: 0%
+Task Buddy
+Efficiency
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:44 am</td>
+        <td>
+          Initiating logout from Admin Profile Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:49 am</td>
+        <td>
+          Logout button clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:49 am</td>
+        <td>
+          Validating logout confirmation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:30:49 am</td>
+        <td>
+          Validated logout confirmation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:49 am</td>
+        <td>
+          Yes button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:51 am</td>
+        <td>
+          Yes button clicked to logout
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:51 am</td>
+        <td>
+          Logout confirmed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:52 am</td>
+        <td>
+          Tc04_addNewTaskbuddyTaskDeletionFlowTest - PASSED
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Tc05_addNewTaskbuddyFlow_ExistingTaskbuddyMobileNoValidationTest</p>
+            <p class="text-sm">
+              <span>9:31:30 am</span> / <span>00:03:40:980</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Tc05_addNewTaskbuddyFlow_ExistingTaskbuddyMobileNoValidationTest</h5>
+<span class='badge badge-success'>11.27.2025 9:31:30 am</span>
+<span class='badge badge-danger'>11.27.2025 9:35:11 am</span>
+<span class='badge badge-default'>00:03:40:980</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test Method: Tc05_addNewTaskbuddyFlow_ExistingTaskbuddyMobileNoValidationTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:31:30 am</td>
+        <td>
+          Logging in as admin with mobile number: 8888881110
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:40 am</td>
+        <td>
+          Entered mobile number into field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:43 am</td>
+        <td>
+          Clicked Send OTP button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:43 am</td>
+        <td>
+          Login flow executed (entered mobile and clicked Send OTP)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:43 am</td>
+        <td>
+          Admin login submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:44 am</td>
+        <td>
+          Submit button is visible before entering OTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:44 am</td>
+        <td>
+          OTP text field is visible before entering OTP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:55 am</td>
+        <td>
+          Entered OTP into field
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:01 am</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:01 am</td>
+        <td>
+          OTP entered for admin login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:01 am</td>
+        <td>
+          Switching store to dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:13 am</td>
+        <td>
+          Store element is present
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:17 am</td>
+        <td>
+          Tasq Master tab clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:19 am</td>
+        <td>
+          Admin Dashboard text is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:23 am</td>
+        <td>
+          Validating Add New Facility screen UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:24 am</td>
+        <td>
+          Scrolling down to check free trial text
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:25 am</td>
+        <td>
+          Free trial text is visible after scroll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:25 am</td>
+        <td>
+          Tapping Add New Task button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:29 am</td>
+        <td>
+          Tapped Add New Task button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:29 am</td>
+        <td>
+          Validating Assign Task Buddy popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:29 am</td>
+        <td>
+          Task buddy text is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:29 am</td>
+        <td>
+          Assign New Task Buddy button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:29 am</td>
+        <td>
+          Assign Existing Task Buddy button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:29 am</td>
+        <td>
+          Selecting task buddy option: New
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:33 am</td>
+        <td>
+          Clicked Assign New Task Buddy button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:33 am</td>
+        <td>
+          Opening existing facility dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:37 am</td>
+        <td>
+          Opened existing facility dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:41 am</td>
+        <td>
+          Selected facility: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:45 am</td>
+        <td>
+          Facility selected and navigated forward: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:45 am</td>
+        <td>
+          Validating Assign Task screen elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:46 am</td>
+        <td>
+          Assign Task screen validation completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:46 am</td>
+        <td>
+          Assigning task 'Dusting' to new buddy from 09:30 PM to 09:55 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:46 am</td>
+        <td>
+          Opening cleaning task dropdown to select task: Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:51 am</td>
+        <td>
+          Selected task option: Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:32:52 am</td>
+        <td>
+          Closed task dropdown after selection
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:32:55 am</td>
+        <td>
+          Adding timing: 09:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:06 am</td>
+        <td>
+          Validating Schedule Task UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:07 am</td>
+        <td>
+          Schedule Task UI elements validated
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:07 am</td>
+        <td>
+          Scrolling to find hour: 09
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:07 am</td>
+        <td>
+          Target hour found: 9
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:07 am</td>
+        <td>
+          Scrolling to find minute: 30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:14 am</td>
+        <td>
+          Target minute found: 30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:14 am</td>
+        <td>
+          Scrolling to find meridian: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:14 am</td>
+        <td>
+          Current meridian: AM | Target: pm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:15 am</td>
+        <td>
+          Scrolled up to PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:17 am</td>
+        <td>
+          validating Popup Ui 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:18 am</td>
+        <td>
+          Accepted task confirm Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:18 am</td>
+        <td>
+          Added Task timing: 09:30 PM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:18 am</td>
+        <td>
+          Validating task timing (new): 9:30 PM - 9:55 PM for Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:20 am</td>
+        <td>
+          New task timing validation passed for Dusting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:37 am</td>
+        <td>
+          Next button tapped
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:37 am</td>
+        <td>
+          Validating Choose Admin screen elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:37 am</td>
+        <td>
+          Verified 'Monitor Yourself' option visibility
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:37 am</td>
+        <td>
+          Choose Admin screen validation completed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:37 am</td>
+        <td>
+          Choosing admin option: supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:38 am</td>
+        <td>
+          Selected 'Supervisor' option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:38 am</td>
+        <td>
+          Tapping Continue button via coordinates
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:39 am</td>
+        <td>
+          Clicked Continue button and proceeded to next screen
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:39 am</td>
+        <td>
+          Validating Assign Supervisor screen for admin type: Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:40 am</td>
+        <td>
+          Assign Supervisor screen validation completed for Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:40 am</td>
+        <td>
+          Entering supervisor details for admin type: Supervisor
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:47 am</td>
+        <td>
+          Entered supervisor name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:55 am</td>
+        <td>
+          Entered mobile number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:55 am</td>
+        <td>
+          Keyboard hidden
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:56 am</td>
+        <td>
+          Supervisor details entered and proceeded to next screen
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:56 am</td>
+        <td>
+          Validating Task Buddy UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:57 am</td>
+        <td>
+          Task Buddy UI elements are validated successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:57 am</td>
+        <td>
+          Validating existing Task Buddy mobile number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:33:57 am</td>
+        <td>
+          Filling Task Buddy details: Name, Mobile, Gender
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:33:57 am</td>
+        <td>
+          Task Buddy Name textfield is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:05 am</td>
+        <td>
+          Entered Task Buddy Name: Raju
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:13 am</td>
+        <td>
+          Entered Mobile Number: 8888881110
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:14 am</td>
+        <td>
+          Gender icons are visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:18 am</td>
+        <td>
+          Selected Female gender
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:18 am</td>
+        <td>
+          Female tick mark displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:22 am</td>
+        <td>
+          Clicked Submit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:22 am</td>
+        <td>
+          Filled Task Buddy details with old mobile number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:30 am</td>
+        <td>
+          Entered new mobile number: 8888881119
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:34 am</td>
+        <td>
+          Clicked Submit button for mobile number validation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:34 am</td>
+        <td>
+          Validating Congratulation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:38 am</td>
+        <td>
+          Clicked Monitor button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:38 am</td>
+        <td>
+          Validating task buddy for facility: Hotel Taj
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:44 am</td>
+        <td>
+          Facility 'Hotel Taj' clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:49 am</td>
+        <td>
+          Task buddy dropdown clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:34:55 am</td>
+        <td>
+          Task buddy 'Raju' selected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:34:55 am</td>
+        <td>
+          Calculating task efficiency
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:35:02 am</td>
+        <td>
+          Efficiency matches. Expected: 0% and found: 0%
+Task Buddy
+Efficiency
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:03 am</td>
+        <td>
+          Initiating logout from Admin Profile Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:35:08 am</td>
+        <td>
+          Logout button clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:08 am</td>
+        <td>
+          Validating logout confirmation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:08 am</td>
+        <td>
+          Validated logout confirmation popup UI elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:35:08 am</td>
+        <td>
+          Yes button is visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:35:10 am</td>
+        <td>
+          Yes button clicked to logout
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:35:10 am</td>
+        <td>
+          Logout confirmed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:35:11 am</td>
+        <td>
+          Tc05_addNewTaskbuddyFlow_ExistingTaskbuddyMobileNoValidationTest - PASSED
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:12:05 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Tc01_addNewTaskbuddyForClassicFacilityTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 27, 2025 09:10:23 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 27, 2025 09:35:12 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>4</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='80%'>
+<b>4</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='20%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='60%'><b>304</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>2</b> events failed,
+<b data-tooltip='%'>198</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Tc01_addNewTaskbuddyForClassicFacilityTest":240.591,"Tc02_addNewTaskbuddy_SingleTask_MultipleTaskTimeTest":262.262,"Tc03_addNewTaskbuddy_MultipleTask_differentTaskTimeTest":275.989,"Tc04_addNewTaskbuddyTaskDeletionFlowTest":233.07,"Tc05_addNewTaskbuddyFlow_ExistingTaskbuddyMobileNoValidationTest":220.98
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>23.0.2</td>
+</tr>
+<tr>
+<td>Automation Framework</td>
+<td>Appium + TestNG + ExtentReports 5.0.9</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 4,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 304,
+failEvents: 2,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 198
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
